@@ -201,3 +201,20 @@ h2::after {
   font-size: 1.5rem;
   text-align: center;
 }
+
+.testimonial-card:hover {
+  background-color: black !important;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.testimonial-card:hover .card-text,
+.testimonial-card:hover .card-title,
+.testimonial-card:hover .star-rating {
+  color: white !important;
+}
+
+.testimonial-card:hover .card-border {
+  border-color: white !important;
+}
