@@ -96,3 +96,11 @@ h6 {
   font-weight: 600 !important;
   font-size: 2rem !important;
 }
+
+h2::before,
+h2::after {
+  content: "";
+  border-top: 3px solid #333; /* The horizontal line style */
+  flex: 1; /* Allows lines to stretch and fill available space */
+  margin: 0 1em; /* Adds space between the text and lines */
+}
