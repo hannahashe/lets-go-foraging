@@ -1,3 +1,10 @@
+/* Google Fonts 
+main heading: Oswald
+subheadings: Playwrite Norge
+body: Arapey */
+
+@import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Oswald:wght@200..700&family=Playwrite+NO:wght@100..400&display=swap");
+
 /* Color Palette */
 :root {
   --color-primary: #4caf50; /* Green */
@@ -5,13 +12,6 @@
   --color-accent: #000000; /* Black */
   --color-link: #006400; /* Dark Green */
 }
-
-/* Google Fonts 
-main heading: Oswald
-subheadings: Playwrite Norge
-body: Arapey */
-
-@import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Oswald:wght@200..700&family=Playwrite+NO:wght@100..400&display=swap");
 
 /* Global Styles */
 html p {
@@ -80,6 +80,7 @@ body {
 }
 
 /* Main Headings & Titles */
+
 h1 {
   font-family: "Oswald", sans-serif;
   text-transform: lowercase;
@@ -98,7 +99,7 @@ h6 {
   justify-content: center;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
-  font-family: "Playwrite NO", sans-serif;
+  font-family: "Playwrite NO", sans-serif !important;
   font-weight: 600 !important;
   font-size: 2rem !important;
 }
@@ -150,7 +151,7 @@ h2::after {
   color: darkgreen;
   border-radius: 0px;
   border: 2px solid;
-  font-family: "Playwrite NO", sans-serif;
+  font-family: "Playwrite NO", sans-serif !important;
   text-transform: lowercase;
   justify-content: center;
 }
