@@ -104,3 +104,14 @@ h2::after {
   flex: 1; /* Allows lines to stretch and fill available space */
   margin: 0 1em; /* Adds space between the text and lines */
 }
+
+/* About section */
+
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+
+.about-p {
+  text-align: end;
+}
