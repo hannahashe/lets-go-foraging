@@ -137,3 +137,25 @@ h2::after {
   color: darkgreen;
   text-decoration: none;
 }
+
+.events-button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#upcoming .link-btn-outline,
+#contact .link-btn-outline {
+  background-color: white;
+  color: darkgreen;
+  border-radius: 0px;
+  border: 2px solid;
+  font-family: "Playwrite NO", sans-serif;
+  text-transform: lowercase;
+  justify-content: center;
+}
+
+#upcoming .link-btn-outline:hover,
+#contact .link-btn-outline:hover {
+  font-weight: bolder;
+}
