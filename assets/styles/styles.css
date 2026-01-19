@@ -41,3 +41,34 @@ body {
   color: white;
   margin: 1px 1px;
 }
+
+/* Hero & header */
+
+.hero {
+  background-image: url("https://images.pexels.com/photos/35030114/pexels-photo-35030114.jpeg");
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  border: 2px solid white;
+  padding: 2rem 1rem;
+  width: 80%;
+  max-width: 500px;
+}
+
+.hero .main-heading {
+  color: white;
+  text-align: center;
+  padding: 1vh 1vw;
+  display: flex;
+  justify-content: center;
+}
+
+.hero .main-heading h1 {
+  font-size: 3.5rem;
+}
