@@ -121,3 +121,19 @@ h2::after {
 .about-p {
   text-align: end;
 }
+
+/* Upcoming section */
+
+#upcoming {
+  display: flex;
+  justify-content: center;
+}
+
+#upcoming table {
+  font-family: "Arapey", serif;
+}
+
+#upcoming-table a {
+  color: darkgreen;
+  text-decoration: none;
+}
