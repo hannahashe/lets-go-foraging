@@ -1,5 +1,32 @@
 /* Color Palette */
 
-/* Google Fonts */
+/* Google Fonts 
+main heading: Oswald
+subheadings: Playwrite Norge
+body: Arapey */
+
+@import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Oswald:wght@200..700&family=Playwrite+NO:wght@100..400&display=swap");
 
 /* Global Styles */
+html p {
+  font-family: "Arapey", serif;
+}
+
+body {
+  background-color: white;
+}
+
+/* Navigation */
+
+.navigation {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: white;
+  margin: 8px;
+}
