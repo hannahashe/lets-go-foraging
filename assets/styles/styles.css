@@ -180,3 +180,24 @@ h2::after {
   border: 2px solid rgb(0, 0, 0);
   height: 100% !important;
 }
+
+.testimonial-card .card-text {
+  font-family: "Playwrite NO", sans-serif !important;
+  text-align: center;
+}
+
+.testimonial-card .quote-author {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  padding-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.testimonial-card .star-rating {
+  color: darkgreen;
+  font-size: 1.5rem;
+  text-align: center;
+}
