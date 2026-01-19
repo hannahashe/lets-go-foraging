@@ -1,4 +1,10 @@
 /* Color Palette */
+:root {
+  --color-primary: #4caf50; /* Green */
+  --color-secondary: #ffffff; /* White */
+  --color-accent: #000000; /* Black */
+  --color-link: #006400; /* Dark Green */
+}
 
 /* Google Fonts 
 main heading: Oswald
