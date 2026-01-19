@@ -30,3 +30,14 @@ body {
   color: white;
   margin: 8px;
 }
+
+.navigation a:hover,
+#upcoming-table a:hover {
+  text-transform: uppercase;
+  text-decoration: darkgreen underline;
+}
+
+.separator {
+  color: white;
+  margin: 1px 1px;
+}
